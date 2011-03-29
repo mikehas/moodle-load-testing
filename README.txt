@@ -10,12 +10,13 @@ testprep.py - This file should be run from the terminal.  When executed with the
 The created files compose a set of jmeter files (usef for creating courses, running tests, and deleting courses) and text files (manual student batch create/delete files and student credentials.)
 
 EXAMPLE FILES:
-1_create_courses.jmx                Logs in as administrator user and creates courses
-2_create_students_25s_3c_3cpers.txt Used to manually import users
-3_run_test.jmx                      Performs primary tests using studentcredentials
-4_delete_students_25.txt            Used to manually remove users
-5_delete_courses.jmx                Logs in as administrator user and deletes courses
-student_credentials_25.txt          Student credentials used in JMeter tests.
+1_create_courses.jmx        Logs in as administrator user and creates courses.
+2_create_students_25s_3c    Used to manually import users.
+ _3cpers.txt                  
+3_run_test.jmx              Performs primary tests using studentcredentials.
+4_delete_students_25.txt    Used to manually remove users.
+5_delete_courses.jmx        Logs in as administrator user and deletes courses.
+student_credentials_25.txt  Student credentials used in JMeter tests.
 
 TESTING PROCEDURE:
 
